@@ -19,11 +19,17 @@ class HelloWorldMainLauncherClass:
         print("Program Finished!")
         tizio.false_method()
     
+    """
+	If I may introduce a bug, the JVM will manage it for me
+	ensuring both security and portability
+	Then I'll write my code once, and run it everywhere!
+	With Static and Strong Typing, will let my programs be type safe!
+	"""
+        
     def false_method(self):
         metal = False
         if metal == False:
             joey_de_caio = None
-            # This will raise an AttributeError in Python
             joey_de_caio.length()
 
 if __name__ == "__main__":
